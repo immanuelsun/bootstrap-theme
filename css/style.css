@@ -21,7 +21,8 @@
 /* Text */
 /* hr */
 /* Validation */
-/* Others */
+/* Gradiant Colors*/
+/* Other Solid Colors */
 /*  ! Positioning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ==================================================
@@ -9148,8 +9149,8 @@ th {
   font-family: 'NymphetteRegular';
   font-weight: normal;
   font-style: normal;
-  src: url("Nymphette-webfont.eot");
-  src: url("fonts/others/Nymphette-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/others/Nymphette-webfont.woff") format("woff"), url("fonts/others/Nymphette-webfont.ttf") format("truetype"), url("fonts/others/Nymphette-webfont.svg#NymphetteRegular") format("svg"); }
+  src: url("../fonts/others/Nymphette-webfont.eot");
+  src: url("../fonts/others/Nymphette-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/others/Nymphette-webfont.woff") format("woff"), url("../fonts/others/Nymphette-webfont.ttf") format("truetype"), url("../fonts/others/Nymphette-webfont.svg#NymphetteRegular") format("svg"); }
 /* Layout */
 /* ==================================================
    ! Nav styles.
@@ -9185,18 +9186,19 @@ hr.ornament, hr.seperator {
   border: 0;
   height: 2px;
   margin: 20px 0 30px;
+  background-image: linear-gradient(to right, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
   background-image: -webkit-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
   background-image: -moz-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
   background-image: -ms-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
   background-image: -o-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0)); }
 
-/* line 26, ../sass/module/_divider.scss */
+/* line 27, ../sass/module/_divider.scss */
 hr.ornament:after {
   background: none repeat scroll 0 0 white;
-  color: #30b2ff;
-  content: "q";
+  content: "dsc";
+  color: rgba(48, 178, 255, 0.99);
   display: inline-block;
-  font-family: 'NymphetteRegular';
+  font-family: "NymphetteRegular";
   font-size: 38px;
   line-height: 20px;
   padding: 0 5px;
@@ -9206,13 +9208,13 @@ hr.ornament:after {
     top:-12px;
    ];*/ }
 
-/* line 41, ../sass/module/_divider.scss */
+/* line 42, ../sass/module/_divider.scss */
 hr.seperator:after {
   background: none repeat scroll 0 0 white;
-  color: #30b2ff;
+  color: rgba(48, 178, 255, 0.99);
   content: "op";
   display: inline-block;
-  font-family: 'NymphetteRegular';
+  font-family: "NymphetteRegular";
   font-size: 24px;
   line-height: 12px;
   padding: 0 5px;

@@ -16,7 +16,7 @@ $font-3: "PT Sans", Helvetica, Arial, sans-serif;
 $font-4: "PT Sans Narrow", Helvetica, Arial, sans-serif;
 
 /* decorative */
-$font-5: "NymphetteRegular", Helvetica, Arial, sans-serif;
+$font-5: 'NymphetteRegular';
 
 
 /*  ! Colors
@@ -36,8 +36,12 @@ $color-hr: #eee;
 $color-error: red;
 $color-success: green;
 
+/* Gradiant Colors*/
+$color-g00: rgba(48, 178, 255, 0);
+$color-g10: rgba(48, 178, 255, .99);
 
-/* Others */
+
+/* Other Solid Colors */
 $color-1: #00B5FE;
 $color-2: #FFD86A;
 $color-3: #2B92FA;

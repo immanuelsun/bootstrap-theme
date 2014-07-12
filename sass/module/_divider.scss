@@ -17,18 +17,19 @@ hr.ornament, hr.seperator {
   border: 0;
   height: 2px;
   margin: 20px 0 30px;
-  background-image: -webkit-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
-  background-image: -moz-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
-  background-image: -ms-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
-  background-image: -o-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
+  background-image: linear-gradient(left, $color-g00, $color-g10, $color-g00);
+  background-image: -webkit-linear-gradient(left, $color-g00, $color-g10, $color-g00);
+  background-image: -moz-linear-gradient(left, $color-g00, $color-g10, $color-g00);
+  background-image: -ms-linear-gradient(left, $color-g00, $color-g10, $color-g00);
+  background-image: -o-linear-gradient(left, $color-g00, $color-g10, $color-g00);
 }
 
 hr.ornament:after {
   background: none repeat scroll 0 0 white;
-  color: #30b2ff;
-  content: "q";
+  content: "dsc";
+  color: $color-g10;
   display: inline-block;
-  font-family: 'NymphetteRegular';
+  font-family: $font-5;
   font-size: 38px;
   line-height: 20px;
   padding: 0 5px;
@@ -40,10 +41,10 @@ hr.ornament:after {
 }
 hr.seperator:after {
   background: none repeat scroll 0 0 white;
-  color: #30b2ff;
+  color: $color-g10;
   content: "op";
   display: inline-block;
-  font-family: 'NymphetteRegular';
+  font-family: $font-5;
   font-size: 24px;
   line-height: 12px;
   padding: 0 5px;
