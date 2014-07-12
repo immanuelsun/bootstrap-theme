@@ -1,3 +1,4 @@
 *.codekit
 README.html
 .sass-cache/
+.codekit-cache/

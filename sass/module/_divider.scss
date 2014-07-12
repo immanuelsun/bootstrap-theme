@@ -1,0 +1,55 @@
+/* ==================================================
+   ! Divider styles.
+================================================== */
+hr {
+  display: block;
+  height: 1px;
+  margin: $general-margin 0;
+  
+  border: none;
+  
+  background-color: $color-hr;
+}
+
+/* HR Styles */
+hr.ornament, hr.seperator {
+  text-align: center;
+  border: 0;
+  height: 2px;
+  margin: 20px 0 30px;
+  background-image: -webkit-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
+  background-image: -moz-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
+  background-image: -ms-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
+  background-image: -o-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
+}
+
+hr.ornament:after {
+  background: none repeat scroll 0 0 white;
+  color: #30b2ff;
+  content: "q";
+  display: inline-block;
+  font-family: 'NymphetteRegular';
+  font-size: 38px;
+  line-height: 20px;
+  padding: 0 5px;
+  position: relative;
+  top: -9px;
+  /* -bracket-:hack[;
+    top:-12px;
+   ];*/
+}
+hr.seperator:after {
+  background: none repeat scroll 0 0 white;
+  color: #30b2ff;
+  content: "op";
+  display: inline-block;
+  font-family: 'NymphetteRegular';
+  font-size: 24px;
+  line-height: 12px;
+  padding: 0 5px;
+  position: relative;
+  top: -8px;
+  /* -bracket-:hack[;
+    top:-12px;
+   ];*/
+}

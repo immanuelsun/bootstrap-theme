@@ -1,0 +1,12 @@
+//= require ./affix-ck
+//= require ./alert-ck
+//= require ./button-ck
+//= require ./carousel-ck
+//= require ./collapse-ck
+//= require ./dropdown-ck
+//= require ./tab-ck
+//= require ./transition-ck
+//= require ./scrollspy-ck
+//= require ./modal-ck
+//= require ./tooltip-ck
+//= require ./popover-ck

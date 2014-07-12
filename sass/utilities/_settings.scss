@@ -1,0 +1,51 @@
+/* ==================================================
+   ! Site settings.
+================================================== */
+
+/*  ! Typography
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+$base-font-size: 16px;
+$baseline: $base-font-size * 1.5;
+
+/* set 1 */
+$font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-2: Georgia, serif;
+
+/* set 2 */
+$font-3: "PT Sans", Helvetica, Arial, sans-serif;
+$font-4: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+
+/* decorative */
+$font-5: "NymphetteRegular", Helvetica, Arial, sans-serif;
+
+
+/*  ! Colors
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Link */
+$color-link: #00B5FE;
+$color-link-hover: #FFD86A;
+
+/* Text */
+$color-text: #333;
+$color-light-text: #777;
+
+/* hr */
+$color-hr: #eee; 
+
+/* Validation */
+$color-error: red;
+$color-success: green;
+
+
+/* Others */
+$color-1: #00B5FE;
+$color-2: #FFD86A;
+$color-3: #2B92FA;
+$color-2: #FFFB53;
+
+
+/*  ! Positioning
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+$margin-multiplier: 2;
+
+$general-margin: $baseline * $margin-multiplier;
