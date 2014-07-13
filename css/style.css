@@ -7069,6 +7069,24 @@ th {
 /* ==================================================
    ! Base Style
 ================================================== */
+/* line 4, ../sass/base/_base.scss */
+body {
+  -webkit-font-smoothing: antialiased; }
+
+/* line 8, ../sass/base/_base.scss */
+p {
+  margin-bottom: 24px; }
+  /* line 11, ../sass/base/_base.scss */
+  p a {
+    text-decoration: none; }
+
+/* line 16, ../sass/base/_base.scss */
+blockquote {
+  font-style: italic; }
+  /* line 19, ../sass/base/_base.scss */
+  blockquote cite {
+    font-size: 1.1rem; }
+
 /* ==================================================
    ! IE 8 Styles
 ================================================== */
@@ -9237,6 +9255,10 @@ hr.seperator:after {
 /* ==================================================
    ! Theme styles.
 ================================================== */
+/* line 4, ../sass/theme/_theme.scss */
+.t-margin {
+  margin-bottom: 72px; }
+
 /* State */
 /* ==================================================
    ! State styles.

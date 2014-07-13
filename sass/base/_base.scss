@@ -1,3 +1,22 @@
 /* ==================================================
    ! Base Style
 ================================================== */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  margin-bottom: $baseline;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+blockquote {
+  font-style: italic;
+  
+  cite {
+    font-size: 1.1rem;  
+  }
+}
