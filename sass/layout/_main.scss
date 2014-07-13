@@ -1,6 +1,34 @@
 /* ==================================================
    ! Main styles.
 ================================================== */
-.l-main {
-  
+
+.l-list-unstyled {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
 }
+
+.l-image-well {
+  @include border-radius(3px);
+  @include float-left;
+
+  width: 4.5rem;
+  height: 4.5rem;
+  
+  margin-right: 3rem;
+}
+
+.l-callout {
+  padding: 3rem;
+
+  @include border-radius(5px);
+}
+
+
+
+
+
+
+
+

@@ -4,19 +4,33 @@
 
 /*  ! Typography
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 $base-font-size: 16px;
 $baseline: $base-font-size * 1.5;
 
+/* Google Fonts */
+// @import url(http://fonts.googleapis.com/css?family=Cardo:400italic,700,400|Alike|IM+Fell+English:400,400italic|Oswald:400,300,700);
+
 /* set 1 */
-$font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-2: Georgia, serif;
+$font-11: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-12: Georgia, serif;
 
 /* set 2 */
-$font-3: "PT Sans", Helvetica, Arial, sans-serif;
-$font-4: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+$font-21: "PT Sans", Helvetica, Arial, sans-serif;
+$font-22: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+
+/* Set 3 */
+$font-31: 'Cardo',Georgia, serif;
+$font-32: 'IM Fell English',Georgia, serif;
+
+/* Set 4 */
+$font-41: 'Alike',Georgia, serif;
+$font-42: "Oswald", Helvetica, Arial, sans-serif;
+
+
 
 /* decorative */
-$font-5: 'NymphetteRegular';
+$font-51: 'NymphetteRegular';
 
 
 /*  ! Colors
@@ -36,6 +50,10 @@ $color-hr: #eee;
 $color-error: red;
 $color-success: green;
 
+/* bg colors */
+$color-well: #2D3439;
+$color-image-well: #FAFAFA;
+
 /* Gradiant Colors*/
 $color-g00: rgba(48, 178, 255, 0);
 $color-g10: rgba(48, 178, 255, .99);
@@ -45,7 +63,8 @@ $color-g10: rgba(48, 178, 255, .99);
 $color-1: #00B5FE;
 $color-2: #FFD86A;
 $color-3: #2B92FA;
-$color-2: #FFFB53;
+$color-4: #FFFB53;
+
 
 
 /*  ! Positioning
