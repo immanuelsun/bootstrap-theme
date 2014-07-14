@@ -1,3 +1,15 @@
 /* ==================================================
    ! Button styles.
 ================================================== */
+
+.button {
+  display: inline-block;
+  height: 4.2rem;
+  padding: 0 1.6rem;
+  outline: none;
+
+  border: 1px solid;
+  font-size: 1.8rem;
+
+  @include border-radius(3px);
+}

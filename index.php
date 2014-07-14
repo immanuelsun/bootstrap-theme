@@ -48,7 +48,7 @@
               <p>Call 1-800-0000</p>
             </li> <!-- end #contacti-info -->
             <li>
-              <button type="button" class="btn btn-primary">Buy Now</button>
+              <button type="button" class="button">Buy Now</button>
             </li>
           </ul> <!-- end .align-right l-list-divided -->
         </div> <!-- end .col-lg-9 -->
@@ -68,8 +68,8 @@
             <h1>Product Name</h1>
             <h3>This is awesome product description or tagline.</h3>
 
-            <button type="button" class="btn btn-primary">Buy Now</button>
-            <button type="button" class="btn btn-default">Try it Free</button>
+            <button type="button" class="button">Buy Now</button>
+            <button type="button" class="button">Try it Free</button>
 
             <hr>
             
@@ -156,10 +156,8 @@
         </li>
         <li class="col-lg-6">
           <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-6.png" alt=""></div>
-          <div class="col-lg-8">
-            <strong>Feature Title</strong>
-            <p>Officia repellendus provident doloribus quia voluptatibus, amet laborum! Accusamus rem, suscipit nobis ab eligendi dolore quos maiores expedita culpa voluptatibus!</p>
-          </div>
+          <strong>Feature Title</strong>
+          <p>Officia repellendus provident doloribus quia voluptatibus, amet laborum! Accusamus rem, suscipit nobis ab eligendi dolore quos maiores expedita culpa voluptatibus!</p>
         </li>
       </ul>
     </div> <!-- end .container t-margin -->
@@ -174,8 +172,8 @@
           <h3>No credit card required for the free trial.</h3>
         </div> <!-- end .col-lg-8 -->
         <div class="col-lg-4 text-right">
-          <button type="button" class="btn btn-primary">But Now</button>
-          <button type="button" class="btn btn-default">Try it Free</button>
+          <button type="button" class="button">But Now</button>
+          <button type="button" class="button">Try it Free</button>
         </div> <!-- end .col-lg-5 -->
       </div> <!-- end .row -->
     </div> <!-- end .container t-margin l-callout t-callout clearfix -->

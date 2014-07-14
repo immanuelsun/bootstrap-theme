@@ -1,0 +1,17 @@
+/* ==================================================
+   ! Footer styls.
+================================================== */
+.l-footer {}
+
+.l-list-inline {
+  @extend .l-list-unstyled;
+
+  li {
+    display: inline;
+  }
+}
+
+.social-icon {
+  font-size: 3rem;
+  margin-right: 3rem;
+}
