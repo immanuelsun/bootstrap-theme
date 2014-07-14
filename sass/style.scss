@@ -16,15 +16,13 @@
 /* Bootstrap */
 @import "bootstrap/bootstrap"; 
 
+/* Fonts */
+@import "font/fonts"; 
+
 /* Base */
 @import "base/normalize"; 
 @import "base/base"; 
 @import "base/ie8"; 
-
-/* Fonts */
-@import "font/set_1"; 
-@import "font/font-awesome"; 
-@import "font/others"; 
 
 /* Layout */
 @import "layout/nav"; 
