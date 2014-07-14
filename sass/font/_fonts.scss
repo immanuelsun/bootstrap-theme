@@ -4,16 +4,25 @@
 
 /*  ! Font-Awesome
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+<<<<<<< HEAD
 // font-fa: 'font-awesome';
+=======
+$f-fa: 'font-awesome';
+>>>>>>> sample-page
 @import "font-awesome"; 
 
 /*  ! HR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/ 
+<<<<<<< HEAD
 $font-hr: 'NymphetteRegular';
+=======
+$f-hr: 'NymphetteRegular';
+>>>>>>> sample-page
 @import "others"; 
 
 /*  ! Bootstrap Font
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+<<<<<<< HEAD
 $font-b1: $font-family-sans-serif; // "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 $font-b2: $font-family-serif;  // Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
@@ -47,4 +56,55 @@ $font-t2: "PT Sans Narrow", Helvetica, Arial, sans-serif;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 $font-g3: 'PT sans', san-serif;
 @import "pt";
+=======
+$f-b1: $font-family-sans-serif; // "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$f-b2: $font-family-serif;  // Georgia, "Times New Roman", Times, serif !default;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$f-b3: $font-family-monospace; // Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+/*  ! Fontfaces
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import "pt";
+
+/*  ! Google Fonts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Mono|PT+Serif:700,400italic,700italic|PT+Sans+Caption:400,700);
+@import url(http://fonts.googleapis.com/css?family=Alike);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+// Light | font-weight: 300;
+$f-301: 'Roboto', sans-serif; 
+$f-303: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+$f-304: 'Droid Sans', sans-serif;
+$f-305: 'Roboto Condensed', sans-serif;
+$f-306: 'Lato', sans-serif;
+$f-307: 'Open Sans Condensed', sans-serif;
+
+// Normal | font-weight: 400; 
+$f-401: 'Roboto', sans-serif; 
+$f-403: 'PT sans', san-serif;
+$f-404: 'Droid Sans', sans-serif;
+$f-405: 'Roboto Condensed', sans-serif;
+$f-406: 'Lato', sans-serif;
+$f-499: 'Alike', serif;
+
+// Bold | font-weight: 700;
+$f-701: 'Roboto', sans-serif;
+$f-703: 'Fjalla One', sans-serif;
+$f-704: 'Droid Sans', sans-serif;
+$f-705: 'Roboto Condensed', sans-serif;
+$f-706: 'Lato', sans-serif;
+$f-707: 'Open Sans Condensed', sans-serif;
+
+// Ultra Bold | font-weight: 900;
+$f-901: 'Roboto', sans-serif; 
+$f-906: 'Lato', sans-serif; 
+
+
+
+
+>>>>>>> sample-page
 

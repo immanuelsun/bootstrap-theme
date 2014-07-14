@@ -7,49 +7,39 @@
 $base-font-size: 16px;
 $baseline: $base-font-size * 1.5;
 
-/* set 1 */
-$font-1: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-2: Georgia, serif;
-
-/* set 2 */
-$font-3: "PT Sans", Helvetica, Arial, sans-serif;
-$font-4: "PT Sans Narrow", Helvetica, Arial, sans-serif;
-
-/* decorative */
-$font-5: 'NymphetteRegular';
-
 
 /*  ! Colors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Link */
-$color-link: #00B5FE;
-$color-link-hover: #FFD86A;
+$c-link: #00B5FE;
+$c-hover: #FFD86A;
 
 /* Text */
-$color-text: #333;
-$color-light-text: #777;
+$c-text: #333;
+$c-light-text: #777;
 
 /* hr */
-$color-hr: #eee; 
+$c-hr: #eee; 
 
 /* Validation */
-$color-error: red;
-$color-success: green;
+$error: red;
+$success: green;
+
+/* bg colors */
+$bg-well: #2D3439;
 
 /* Gradiant Colors*/
-$color-g00: rgba(48, 178, 255, 0);
-$color-g10: rgba(48, 178, 255, .99);
-
+$c-g000: rgba(48, 178, 255, 0);
+$c-g099: rgba(48, 178, 255, .99);
 
 /* Other Solid Colors */
-$color-1: #00B5FE;
-$color-2: #FFD86A;
-$color-3: #2B92FA;
-$color-2: #FFFB53;
+$aqua: #00B5FE;
+$orange: #FFD86A;
+$blue: #2B92FA;
+$yellow: #FFFB53;
 
 
 /*  ! Positioning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 $margin-multiplier: 2;
-
 $general-margin: $baseline * $margin-multiplier;
