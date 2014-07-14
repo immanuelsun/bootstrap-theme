@@ -26,11 +26,12 @@
 /* ==================================================
    ! Utilities.
 ================================================== */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Mono|PT+Serif:700,400italic,700italic|PT+Sans+Caption:400,700);
 @import url(http://fonts.googleapis.com/css?family=Alike);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
 /* line 4, ../sass/utilities/_utilities.scss */
 .align-left {
   float: left; }
@@ -8718,11 +8719,6 @@ button.close {
   src: url("../fonts/others/Nymphette-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/others/Nymphette-webfont.woff") format("woff"), url("../fonts/others/Nymphette-webfont.ttf") format("truetype"), url("../fonts/others/Nymphette-webfont.svg#NymphetteRegular") format("svg"); }
 /*  ! Bootstrap Font
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/*  ! Google Fonts
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* General */
-/* Headings (font-weight: 700;) */
-/* Thin */
 /*  ! Fontfaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ==================================================
@@ -8767,6 +8763,8 @@ button.close {
   font-weight: bold;
   src: url("fonts/set_1/ptn77f_w.eot");
   src: local("PT Sans Narrow Bold"), url("fonts/set_1/PTN77F_W.woff") format("woff"), url("fonts/set_1/PTN77F_W.ttf") format("truetype"), url("fonts/set_1/PTN77F_W.svg#PTSans-NarrowBold") format("svg"); }
+/*  ! Google Fonts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Base */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**

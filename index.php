@@ -156,8 +156,10 @@
         </li>
         <li class="col-lg-6">
           <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-6.png" alt=""></div>
-          <strong>Feature Title</strong>
-          <p>Officia repellendus provident doloribus quia voluptatibus, amet laborum! Accusamus rem, suscipit nobis ab eligendi dolore quos maiores expedita culpa voluptatibus!</p>
+          <div class="col-lg-8">
+            <strong>Feature Title</strong>
+            <p>Officia repellendus provident doloribus quia voluptatibus, amet laborum! Accusamus rem, suscipit nobis ab eligendi dolore quos maiores expedita culpa voluptatibus!</p>
+          </div>
         </li>
       </ul>
     </div> <!-- end .container t-margin -->

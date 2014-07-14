@@ -8,7 +8,7 @@ hr {
   
   border: none;
   
-  background-color: $color-hr;
+  background-color: $c-hr;
 }
 
 /* HR Styles */
@@ -17,19 +17,19 @@ hr.ornament, hr.seperator {
   border: 0;
   height: 2px;
   margin: 20px 0 30px;
-  background-image: linear-gradient(left, $color-g00, $color-g10, $color-g00);
-  background-image: -webkit-linear-gradient(left, $color-g00, $color-g10, $color-g00);
-  background-image: -moz-linear-gradient(left, $color-g00, $color-g10, $color-g00);
-  background-image: -ms-linear-gradient(left, $color-g00, $color-g10, $color-g00);
-  background-image: -o-linear-gradient(left, $color-g00, $color-g10, $color-g00);
+  background-image: linear-gradient(left, $c-g000, $c-g099, $c-g000);
+  background-image: -webkit-linear-gradient(left, $c-g000, $c-g099, $c-g000);
+  background-image: -moz-linear-gradient(left, $c-g000, $c-g099, $c-g000);
+  background-image: -ms-linear-gradient(left, $c-g000, $c-g099, $c-g000);
+  background-image: -o-linear-gradient(left, $c-g000, $c-g099, $c-g000);
 }
 
 hr.ornament:after {
   background: none repeat scroll 0 0 white;
   content: "dsc";
-  color: $color-g10;
+  color: $c-g099;
   display: inline-block;
-  font-family: $font-hr;
+  font-family: $f-hr;
   font-size: 38px;
   line-height: 20px;
   padding: 0 5px;
@@ -41,10 +41,10 @@ hr.ornament:after {
 }
 hr.seperator:after {
   background: none repeat scroll 0 0 white;
-  color: $color-g10;
+  color: $c-g099;
   content: "op";
   display: inline-block;
-  font-family: $font-hr;
+  font-family: $f-hr;
   font-size: 24px;
   line-height: 12px;
   padding: 0 5px;
