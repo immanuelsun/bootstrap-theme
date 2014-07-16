@@ -37,11 +37,11 @@
   <header class="l-header t-beveled">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
-          <h1 class="logo"><a href="index.html">Landing Page</a></h1>
+        <div class="col-lg-6">
+          <h1 class="logo"><a href="index.php">New Streams Design</a></h1>
         </div> <!-- end .col-lg-3 -->
 
-        <div class="col-lg-9">
+        <div class="col-lg-6">
           <ul class="align-right l-list-divided">
             <li id="contacti-info">
               <p><small>Question?</small> </p>
@@ -68,8 +68,10 @@
             <h1>Product Name</h1>
             <h3>This is awesome product description or tagline.</h3>
 
-            <button type="button" class="button">Buy Now</button>
-            <button type="button" class="button">Try it Free</button>
+            <div class="btn-group">
+              <button type="button" class="btn button">Buy Now</button>
+              <button type="button" class="btn button button-secondary">Try it Free</button>
+            </div> <!-- end .btn-group -->
 
             <hr>
             
@@ -116,15 +118,15 @@
       </header> <!-- end .text-center -->
       <ul class="row l-list-unstyled">
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-1.png" alt=" "></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-1.png" alt=" "></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint animi nemo officia, eveniet repellat sed necessitatibus quod atque nobis iure.</p>
           </div>
         </li>
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-2.png" alt=""></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-2.png" alt=""></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Dolores sapiente corrupti eveniet suscipit, est asperiores quo, quia expedita ea cum libero nulla vero modi laboriosam repudiandae maiores, incidunt.</p>
           </div> 
@@ -132,15 +134,15 @@
       </ul>
       <ul class="row l-list-unstyled">
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-3.png" alt=""></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-3.png" alt=""></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore saepe explicabo culpa eius voluptatum reprehenderit, dolorem pariatur dolor quisquam, tempore.</p>
           </div> 
         </li>
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-4.png" alt=""></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-4.png" alt=""></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Totam amet laborum iste, similique dolorem eius obcaecati, eaque soluta blanditiis minima exercitationem rerum, aperiam. Illum velit atque aliquam corporis.</p>
           </div> 
@@ -148,15 +150,15 @@
       </ul>
       <ul class="row l-list-unstyled">
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-5.png" alt=""></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-5.png" alt=""></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem earum, consequatur vero eligendi delectus ad sint, exercitationem et dolorem nulla!</p>
           </div>
         </li>
         <li class="col-lg-6">
-          <div class="l-image-well col-lg-4 text-center"><img src="images/icons/icon-6.png" alt=""></div>
-          <div class="col-lg-8">
+          <div class="l-image-well text-center"><img src="images/icons/icon-6.png" alt=""></div>
+          <div class="l-text-well">
             <strong>Feature Title</strong>
             <p>Officia repellendus provident doloribus quia voluptatibus, amet laborum! Accusamus rem, suscipit nobis ab eligendi dolore quos maiores expedita culpa voluptatibus!</p>
           </div>
@@ -174,8 +176,10 @@
           <h3>No credit card required for the free trial.</h3>
         </div> <!-- end .col-lg-8 -->
         <div class="col-lg-4 text-right">
-          <button type="button" class="button">But Now</button>
-          <button type="button" class="button">Try it Free</button>
+          <div class="btn-group">
+            <button type="button" class="btn button">Buy Now</button>
+            <button type="button" class="btn button button-primary">Try it Free</button>
+          </div> <!-- end .btn-group -->
         </div> <!-- end .col-lg-5 -->
       </div> <!-- end .row -->
     </div> <!-- end .container t-margin l-callout t-callout clearfix -->
