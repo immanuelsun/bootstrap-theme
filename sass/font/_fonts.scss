@@ -68,12 +68,71 @@ $f-b3: $font-family-monospace; // Menlo, Monaco, Consolas, "Courier New", monosp
 
 /*  ! Google Fonts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700);
-@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Mono|PT+Serif:700,400italic,700italic|PT+Sans+Caption:400,700);
-@import url(http://fonts.googleapis.com/css?family=Alike);
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
-@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+// @import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700);
+// @import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Sans+Narrow:400,700|PT+Mono|PT+Serif:700,400italic,700italic|PT+Sans+Caption:400,700);
+// @import url(http://fonts.googleapis.com/css?family=Alike);
+// @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
+// @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+// /*For Logo or Headings */
+// @import url(http://fonts.googleapis.com/css?family=Lilita+One|Sarina|Viga|Sonsie+One|Poller+One|Limelight|Russo+One|Lemon|Bevan|Kavoon|Carter+One|Miltonian+Tattoo);
+// @import url(http://fonts.googleapis.com/css?family=Viga|PT+Sans+Narrow:400,700|Kite+One|Tulpen+One|Unica+One|Oswald:400,300,700|Yanone+Kaffeesatz:400,300,700,200|Francois+One|Fjalla+One|Pathway+Gothic+One|Homenaje|Six+Caps);
+
+// /* Heavy */
+// $f-h03: 'Viga', sans-serif;
+// $f-h07: 'Russo One', sans-serif;
+
+// $f-h01: 'Lilita One', cursive;
+// $f-h02: 'Sarina', cursive;
+// $f-h04: 'Sonsie One', cursive;
+// $f-h05: 'Poller One', cursive;
+// $f-h06: 'Limelight', cursive;
+// $f-h08: 'Lemon', cursive;
+// $f-h09: 'Bevon', cursive;
+// $f-h10: 'Kavoon', cursive;
+// $f-h11: 'Carter One', cursive;
+// $f-h12: 'Miltonian Tattoo', cursive;
+
+// /* Narrow */
+// $f-n01: 'Viga', sans-serif;
+// $f-n02: 'PT Sans Narrow', sans-serif;
+// $f-n03: 'Kite One', sans-serif;
+// $f-n04: 'Oswald', sans-serif;
+// $f-n05: 'Yanone Kaffeesatz', sans-serif;
+// $f-n06: 'Francois One', sans-serif;
+// $f-n07: 'Fjalla One', sans-serif;
+// $f-n08: 'Pathway Gothic One', sans-serif;
+// $f-n09: 'Homenaje', sans-serif;
+// $f-n10: 'Six Caps', sans-serif;
+
+
+// $f-n11: 'Tulen One', cursive;
+// $f-n12: 'Unica One', cursive;
+
+/* Cursive: Logo and Headings */
+@import url(http://fonts.googleapis.com/css?family=Miniver|Yellowtail|Sarina|Mr+Bedfort|Stalemate|Allura|Mr+De+Haviland|Grand+Hotel|Great+Vibes|Pacifico|Playball|Rock+Salt|Satisfy|Damion|Rochester|Sacramento|Leckerli+One|Norican|Vibur|Warnes);
+
+$f-c01: 'Miniver', cursive;
+$f-c02: 'Yellowtail', cursive;
+$f-c03: 'Sarina', cursive;
+$f-c04: 'Mr Bedfort', cursive;
+$f-c05: 'Stalemate', cursive;
+$f-c06: 'Allura', cursive;
+$f-c07: 'Mr De Haviland', cursive;
+$f-c08: 'Grand Hotel', cursive;
+$f-c09: 'Great Vibes', cursive;
+$f-c11: 'Pacifico', cursive;
+$f-c12: 'Playball', cursive;
+$f-c13: 'Rock Salt', cursive;
+$f-c14: 'Damion', cursive;
+$f-c15: 'Rochester', cursive;
+$f-c16: 'Sacramento', cursive;
+$f-c17: 'Leckeli One', cursive;
+$f-c18: 'Norican', cursive;
+$f-c19: 'Vibur', cursive;
+$f-c20: 'Warnes', cursive;
+
 
 // Light | font-weight: 300;
 $f-301: 'Roboto', sans-serif; 
@@ -107,4 +166,5 @@ $f-906: 'Lato', sans-serif;
 
 
 >>>>>>> sample-page
+
 

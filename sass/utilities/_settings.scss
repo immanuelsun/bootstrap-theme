@@ -12,34 +12,42 @@ $baseline: $base-font-size * 1.5;
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* Link */
 $c-link: #00B5FE;
-$c-hover: #FFD86A;
+$c-hover: #FFAB10;
 
 /* Text */
-$c-text: #333;
-$c-light-text: #777;
+$c-text: #424E57;
+$c-text-light: lighten($c-text, 20%);
 
 /* hr */
 $c-hr: #eee; 
 
 /* Validation */
-$error: red;
-$success: green;
+$c-error: red;
+$c-success: green;
 
-/* bg colors */
-$bg-well: #2D3439;
+/* bg */
+$bg-callout: #2D3439;
+$bg-banner: #00B5FE;
 
-/* Gradiant Colors*/
+/* border */
+$c-border: #F1F1F1;
+$c-border-shadow: darken($c-border, 10%);
+
+/* Gradiant*/
 $c-g000: rgba(48, 178, 255, 0);
 $c-g099: rgba(48, 178, 255, .99);
 
-/* Other Solid Colors */
+/* others */
 $aqua: #00B5FE;
-$orange: #FFD86A;
+$orange: #FFAB10;
 $blue: #2B92FA;
 $yellow: #FFFB53;
+$red: #F3382D;
+$grey: #F1F1F1;
 
 
 /*  ! Positioning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 $margin-multiplier: 2;
 $general-margin: $baseline * $margin-multiplier;
+

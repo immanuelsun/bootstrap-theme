@@ -18,14 +18,16 @@
 /* Text */
 /* hr */
 /* Validation */
-/* bg colors */
-/* Gradiant Colors*/
-/* Other Solid Colors */
+/* bg */
+/* border */
+/* Gradiant*/
+/* others */
 /*  ! Positioning
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /* ==================================================
    ! Utilities.
 ================================================== */
+<<<<<<< HEAD
 <<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Alike);
@@ -39,6 +41,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+>>>>>>> sample-page
+=======
+@import url(http://fonts.googleapis.com/css?family=Miniver|Yellowtail|Sarina|Mr+Bedfort|Stalemate|Allura|Mr+De+Haviland|Grand+Hotel|Great+Vibes|Pacifico|Playball|Rock+Salt|Satisfy|Damion|Rochester|Sacramento|Leckerli+One|Norican|Vibur|Warnes);
 >>>>>>> sample-page
 /* line 4, ../sass/utilities/_utilities.scss */
 .align-left {
@@ -121,7 +126,8 @@ dfn {
   font-style: italic; }
 
 /* line 133, ../sass/bootstrap/_normalize.scss */
-h1 {
+h1, h5,
+h6 {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -1292,15 +1298,19 @@ hr {
   clip: auto; }
 
 /* line 9, ../sass/bootstrap/_type.scss */
-h1, h2, h3, h4, h5, h6,
+h1, h5,
+h6, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
   /* line 16, ../sass/bootstrap/_type.scss */
-  h1 small,
-  h1 .small, h2 small,
+  h1 small, h5 small,
+  h6 small,
+  h1 .small,
+  h5 .small,
+  h6 .small, h2 small,
   h2 .small, h3 small,
   h3 .small, h4 small,
   h4 .small, h5 small,
@@ -1318,14 +1328,18 @@ h1, h2, h3, h4, h5, h6,
     color: #777777; }
 
 /* line 24, ../sass/bootstrap/_type.scss */
-h1, .h1,
+h1, h5,
+h6, .h1,
 h2, .h2,
 h3, .h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
   /* line 30, ../sass/bootstrap/_type.scss */
-  h1 small,
-  h1 .small, .h1 small,
+  h1 small, h5 small,
+  h6 small,
+  h1 .small,
+  h5 .small,
+  h6 .small, .h1 small,
   .h1 .small,
   h2 small,
   h2 .small, .h2 small,
@@ -1354,7 +1368,8 @@ h6, .h6 {
     font-size: 75%; }
 
 /* line 47, ../sass/bootstrap/_type.scss */
-h1, .h1 {
+h1, h5,
+h6, .h1 {
   font-size: 36px; }
 
 /* line 48, ../sass/bootstrap/_type.scss */
@@ -4995,7 +5010,8 @@ a.badge:hover, a.badge:focus {
   color: inherit;
   background-color: #eeeeee; }
   /* line 12, ../sass/bootstrap/_jumbotron.scss */
-  .jumbotron h1,
+  .jumbotron h1, .jumbotron h5,
+  .jumbotron h6,
   .jumbotron .h1 {
     color: inherit; }
   /* line 16, ../sass/bootstrap/_jumbotron.scss */
@@ -5022,7 +5038,8 @@ a.badge:hover, a.badge:focus {
         padding-left: 60px;
         padding-right: 60px; }
       /* line 43, ../sass/bootstrap/_jumbotron.scss */
-      .jumbotron h1,
+      .jumbotron h1, .jumbotron h5,
+      .jumbotron h6,
       .jumbotron .h1 {
         font-size: 63px; } }
 
@@ -8773,6 +8790,7 @@ button.close {
   src: local("PT Sans Narrow Bold"), url("fonts/set_1/PTN77F_W.woff") format("woff"), url("fonts/set_1/PTN77F_W.ttf") format("truetype"), url("fonts/set_1/PTN77F_W.svg#PTSans-NarrowBold") format("svg"); }
 /*  ! Google Fonts
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* Cursive: Logo and Headings */
 /* Base */
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
@@ -9558,7 +9576,8 @@ dfn {
  * contexts in Firefox 4+, Safari, and Chrome.
  */
 /* line 133, ../sass/base/_normalize.scss */
-h1 {
+h1, h5,
+h6 {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -9837,25 +9856,28 @@ th {
 ================================================== */
 /* line 4, ../sass/base/_base.scss */
 body {
-  -webkit-font-smoothing: antialiased;
-  font-size: 16px; }
+  -webkit-font-smoothing: antialiased; }
 
-/* line 9, ../sass/base/_base.scss */
+/* line 8, ../sass/base/_base.scss */
 p {
   margin-bottom: 24px; }
 
-/* line 13, ../sass/base/_base.scss */
+/* line 12, ../sass/base/_base.scss */
 a {
   text-decoration: none; }
-  /* line 16, ../sass/base/_base.scss */
+  /* line 15, ../sass/base/_base.scss */
   a:hover {
     text-decoration: none; }
 
-/* line 21, ../sass/base/_base.scss */
+/* line 20, ../sass/base/_base.scss */
 blockquote {
   margin: 0;
   font-style: italic; }
+<<<<<<< HEAD
   /* line 25, ../sass/base/_base.scss */
+>>>>>>> sample-page
+=======
+  /* line 24, ../sass/base/_base.scss */
 >>>>>>> sample-page
   blockquote cite {
     font-size: 1.1rem; }
@@ -9915,8 +9937,13 @@ blockquote {
 
 /* line 14, ../sass/layout/_footer.scss */
 .social-icon {
-  font-size: 3rem;
-  margin-right: 3rem; }
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  padding-top: 1rem;
+  margin: 0 1.5rem;
+  text-align: center;
+  font-size: 3rem; }
 
 /* ==================================================
    ! Main styles.
@@ -9943,6 +9970,10 @@ blockquote {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
+
+/* line 28, ../sass/layout/_main.scss */
+.l-text-well {
+  margin-left: 9rem; }
 
 /* Module */
 /* ==================================================
@@ -10029,9 +10060,216 @@ hr.seperator:after {
 /* ==================================================
    ! Theme styles.
 ================================================== */
-/* line 4, ../sass/theme/_theme.scss */
+/*  ! Mixins
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*  ! Typography
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 20, ../sass/theme/_theme.scss */
+body {
+  color: #424e57;
+  font: 16px/24px "Droid Sans", sans-serif; }
+
+/* line 25, ../sass/theme/_theme.scss */
+a {
+  color: #00b5fe; }
+  /* line 28, ../sass/theme/_theme.scss */
+  a:hover {
+    color: #ffab10; }
+
+/* line 33, ../sass/theme/_theme.scss */
+h1, h5,
+h6,
+h2,
+h3,
+h4 {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin-bottom: 2rem; }
+
+/* line 42, ../sass/theme/_theme.scss */
+h5,
+h6 {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-transform: uppercase; }
+
+/* line 50, ../sass/theme/_theme.scss */
+h1, h5,
+h6 {
+  font-size: 4.5rem;
+  text-transform: uppercase; }
+
+/* line 51, ../sass/theme/_theme.scss */
+h2 {
+  font-size: 3.6rem; }
+
+/* line 52, ../sass/theme/_theme.scss */
+h3 {
+  font-size: 3rem; }
+
+/* line 53, ../sass/theme/_theme.scss */
+h4 {
+  font-size: 2.4rem; }
+
+/* line 54, ../sass/theme/_theme.scss */
+h5 {
+  font-size: 2rem; }
+
+/* line 55, ../sass/theme/_theme.scss */
+h6 {
+  font-size: 1.6rem; }
+
+/* line 58, ../sass/theme/_theme.scss */
+blockquote cite {
+  color: #6e8291; }
+
+/*  ! Layout related
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 64, ../sass/theme/_theme.scss */
 .t-margin {
   margin-bottom: 72px; }
+
+/*  ! Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 70, ../sass/theme/_theme.scss */
+.t-beveled {
+  border-bottom: 4px solid #f1f1f1;
+  -webkit-box-shadow: 0px 1px 5px #d7d7d7;
+  box-shadow: 0px 1px 5px #d7d7d7; }
+
+/* line 76, ../sass/theme/_theme.scss */
+.logo {
+  margin: 0;
+  padding: 0;
+  height: 4rem;
+  line-height: 4rem;
+  text-transform: none;
+  display: inline-block; }
+  /* line 86, ../sass/theme/_theme.scss */
+  .logo a {
+    background: transparent url(../images/logo.png) center left no-repeat;
+    background-size: 4rem 4rem;
+    padding-left: 5rem;
+    padding-top: .7rem;
+    font-family: "Great Vibes", cursive;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    color: #f3382d;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); }
+
+/*  ! Main Banner
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 106, ../sass/theme/_theme.scss */
+#main-banner {
+  background: #00b5fe;
+  -webkit-box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 -4px 0 0 rgba(0, 0, 0, 0.2) inset; }
+  /* line 111, ../sass/theme/_theme.scss */
+  #main-banner h1, #main-banner h5,
+  #main-banner h6,
+  #main-banner h3,
+  #main-banner p {
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); }
+  /* line 119, ../sass/theme/_theme.scss */
+  #main-banner hr {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.4); }
+
+/*  ! Buttons
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 128, ../sass/theme/_theme.scss */
+.button {
+  background-color: #ffab10;
+  color: white;
+  border-color: #a96e00;
+  -webkit-box-shadow: 0 -2px 0 #a96e00 inset;
+  box-shadow: 0 -2px 0 #a96e00 inset; }
+  /* line 131, ../sass/theme/_theme.scss */
+  .button:hover {
+    background-color: #fffb53;
+    color: #424e57;
+    border-color: #ece700;
+    -webkit-box-shadow: 0 -2px 0 #ece700 inset;
+    box-shadow: 0 -2px 0 #ece700 inset; }
+
+/* line 136, ../sass/theme/_theme.scss */
+.button-primary {
+  background-color: #00b5fe;
+  color: white;
+  border-color: #006c98;
+  -webkit-box-shadow: 0 -2px 0 #006c98 inset;
+  box-shadow: 0 -2px 0 #006c98 inset; }
+  /* line 139, ../sass/theme/_theme.scss */
+  .button-primary:hover {
+    background-color: #2b92fa;
+    color: white;
+    border-color: #045fbb;
+    -webkit-box-shadow: 0 -2px 0 #045fbb inset;
+    box-shadow: 0 -2px 0 #045fbb inset; }
+
+/* line 144, ../sass/theme/_theme.scss */
+.button-secondary {
+  background-color: #f1f1f1;
+  color: #424e57;
+  border-color: #bebebe;
+  -webkit-box-shadow: 0 -2px 0 #bebebe inset;
+  box-shadow: 0 -2px 0 #bebebe inset; }
+  /* line 147, ../sass/theme/_theme.scss */
+  .button-secondary:hover {
+    background-color: #424e57;
+    color: white;
+    border-color: #161a1d;
+    -webkit-box-shadow: 0 -2px 0 #161a1d inset;
+    box-shadow: 0 -2px 0 #161a1d inset; }
+
+/*  ! List
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 154, ../sass/theme/_theme.scss */
+.l-list-divided li {
+  border-right: 1px solid #f1f1f1;
+  padding-right: 2rem; }
+  /* line 158, ../sass/theme/_theme.scss */
+  .l-list-divided li:last-child {
+    border-right: none;
+    padding-right: 0; }
+
+/* line 166, ../sass/theme/_theme.scss */
+.l-image-well {
+  float: left;
+  margin-right: 2rem;
+  background-color: #f1f1f1;
+  width: 7rem;
+  height: 7rem;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding-top: 1.2rem; }
+
+/*  ! Callout
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 183, ../sass/theme/_theme.scss */
+.l-callout {
+  background-color: #2d3439;
+  color: #d7d7d7;
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2); }
+  /* line 190, ../sass/theme/_theme.scss */
+  .l-callout h2 {
+    margin-top: 0; }
+  /* line 194, ../sass/theme/_theme.scss */
+  .l-callout h3 {
+    margin: 0;
+    color: #8b8b8b; }
+
+/*  ! Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* line 203, ../sass/theme/_theme.scss */
+.social-icon {
+  background-color: #f6f6f6;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; }
+  /* line 208, ../sass/theme/_theme.scss */
+  .social-icon i.fa {
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4); }
 
 /* State */
 /* ==================================================
