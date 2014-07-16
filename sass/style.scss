@@ -1,10 +1,14 @@
-/**
- * Descrption: A simple CSS framework using Sass, Compass, Bootstrap and SMACSS. 
- * Author: Immanuel Sun
- * Version: 1.0
- * Time: Jul 11, 2014
- * 
- */
+/*
+Theme Name: Smacsstrap
+Author: Immanuel Sun
+Author URI: http://www.newstreamsdesign.com
+Description: A simple Wordpress framework using Sass, Compass, Bootstrap and SMACSS. 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: white, blue, orange, tan, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: smacsstrap
+*/
 
 /* Compass */
 @import "compass";
@@ -12,9 +16,6 @@
 /* Utilities */
 @import "utilities/settings"; 
 @import "utilities/utilities"; 
-
-/* Bootstrap */
-@import "bootstrap/bootstrap"; 
 
 /* Fonts */
 @import "font/fonts"; 

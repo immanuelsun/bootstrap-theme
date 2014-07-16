@@ -1,53 +1,18 @@
 /* ==================================================
    ! Header styles.
 ================================================== */
-.l-header {
-  padding: 1.5rem 0;
-
-  logo {
-    margin: 0;
-
-    font-size: 1.625rem;
-    line-height: 3rem;
-
-    a {
-      text-decoration: none;
-    }
-  }
+/*  ! Adjust Navbar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.l-list-divided {
-  list-style-type: none;
-  margin: 0;
-
-  li {
-    @include float-left;
-
-    padding-left: 1rem;
-    margin-left: 1rem;
-  }
+/*  ! Adjust Admin Bar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.admin-bar .navbar-fixed-top {
+  margin-top: 30px;
 }
-
-#contacti-info {
-  p {
-    margin: 0;
-
-    small {
-      text-transform: uppercase;
-    }
-
-    &:last-child {
-      font-weight: bold;
-    }
-  }
-}
-
-#main-banner {
-  padding: 3rem 0 0;
-}
-
-
-
 
 
 
