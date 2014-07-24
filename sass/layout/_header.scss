@@ -1,53 +1,54 @@
 /* ==================================================
    ! Header styles.
 ================================================== */
-.l-header {
-  padding: 1.5rem 0;
-
-  logo {
-    margin: 0;
-
-    font-size: 1.625rem;
-    line-height: 3rem;
-
-    a {
-      text-decoration: none;
-    }
-  }
+/*  ! Adjust Navbar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
-.l-list-divided {
-  list-style-type: none;
+/*  ! Adjust Admin Bar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.admin-bar .navbar-fixed-top {
+  margin-top: 30px;
+}
+
+/*  ! Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.t-beveled {
+  border-bottom: 4px solid $c-border;
+
+  @include box-shadow(0px 1px 5px $c-border-shadow);
+}
+
+.logo {
   margin: 0;
+  padding: 0;
 
-  li {
-    @include float-left;
+  height: 4rem;
+  line-height: 4rem;
+  text-transform: none;
 
-    padding-left: 1rem;
-    margin-left: 1rem;
+  display: inline-block;
+  
+  a {
+    background: transparent url(../images/logo.png) center left no-repeat;
+    background-size: 4rem 4rem;
+
+    padding-left: 5rem;
+    padding-top: .7rem;
+
+    font-family: $f-c09;
+    // text-transform: uppercase;
+    font-size: 3rem;  
+    letter-spacing: .1rem;
+
+    color: $red;
+
+    @include text-shadow(0px 0px 3px rgba(0, 0, 0, .2));
   }
 }
-
-#contacti-info {
-  p {
-    margin: 0;
-
-    small {
-      text-transform: uppercase;
-    }
-
-    &:last-child {
-      font-weight: bold;
-    }
-  }
-}
-
-#main-banner {
-  padding: 3rem 0 0;
-}
-
-
-
 
 
 

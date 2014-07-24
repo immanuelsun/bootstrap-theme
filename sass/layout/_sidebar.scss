@@ -1,0 +1,37 @@
+/* ==================================================
+   ! Sidebar Styles
+================================================== */
+.sidebar {
+  padding-top: 2.5rem;
+
+  font-size: .8em;
+}
+
+.widget {
+
+  h3 {
+    padding: 1rem 0 1rem;
+  }
+  
+}
+
+/*  ! Sidebar
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.widget {
+
+  h3 {
+    display: inline-block;
+    border-bottom: 3px solid;
+    border-color: $aqua-light;
+    
+    color: $c-text-light;
+    
+    text-transform: uppercase;
+  }
+    
+  p {
+    color: lighten($c-text, 20%);
+    
+    font-size: .9em;
+  }
+}

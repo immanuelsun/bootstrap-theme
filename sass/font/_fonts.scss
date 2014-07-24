@@ -12,13 +12,6 @@ $f-fa: 'font-awesome';
 $f-hr: 'NymphetteRegular';
 @import "others"; 
 
-/*  ! Bootstrap Font
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-$f-b1: $font-family-sans-serif; // "Helvetica Neue", Helvetica, Arial, sans-serif !default;
-$f-b2: $font-family-serif;  // Georgia, "Times New Roman", Times, serif !default;
-//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$f-b3: $font-family-monospace; // Menlo, Monaco, Consolas, "Courier New", monospace !default;
-
 /*  ! Fontfaces
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 @import "pt";

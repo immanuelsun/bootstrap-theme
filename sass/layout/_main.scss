@@ -1,38 +1,99 @@
 /* ==================================================
    ! Main styles.
 ================================================== */
+/**
+ * 1. General
+ * 2. Page
+ * 3. Posts Page
+ * 4. Portfolios Page
+ * 5. Single Portfolio Page
+ */
 
-.l-list-unstyled {
-  margin: 0;
-  padding: 0;
-
-  list-style-type: none;
+// General =====================
+.main {
+  box-shadow: 1px 0 1px 1px rgba(0, 0, 0, .1);
+  box-shadow: inset -1px -1px 2px -2px rgba(0, 0, 0, .2);
+  border: 1px solid $grey;
 }
 
-.l-image-well {
-  @include border-radius(3px);
-  @include float-left;
+// Page =====================
+.page {
+  h1,
+  h2 {
+    color: $c-text;
+  }
+}
 
-  width: 4.5rem;
-  height: 4.5rem;
+// Posts Page =====================
+.post {
+  margin: 1rem 0 3rem;
+  border-top: 1px solid $grey;
+}
+
+.post-header {
+  margin-bottom: 2rem;
+
+  // Posts Page
+  h1, h2 {
+    padding-top: 1rem;
+    display: inline-block;
+
+    padding-bottom: 1rem;
+    margin-bottom: .3rem;
+
+    border-bottom: 4px solid $aqua-light;
+  }
+
+  // Single Post Page
+  ul.meta {  
+    padding: 0;
+    margin: 0;
+
+    li {
+      display: inline;
+      margin-right: 1rem;
+      font-family: $f-303;
+      font-size: .8em;
+
+      i {
+        padding-right: .5rem;
+        color: $orange;
+      }
+    }
+  }
+}
+
+// Portfolios Page =====================
+.portfolio-item {
+  padding-bottom: 1em;
   
-  margin-right: 3rem;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
-.l-callout {
-  padding: 3rem;
+// Single Portfolio Page =====================
+.portfolio-nav {
+  margin-top: 2em;
+  text-align: right;
 
-  @include border-radius(5px);
+  font-size: 1.5em;
+
+  a {
+    padding: 0px .2em;
+  }
 }
+.portfolio-image img {
+  max-width: 100%;
+  height: auto;
 
-.l-text-well {
-  margin-left: 9rem;
+  margin-top: 1em;
 }
-
-
-
-
-
-
 
 
