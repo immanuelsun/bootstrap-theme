@@ -2,7 +2,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Company 2014</p>
+        <p class="text-center">&copy; Company 2014</p>
       </footer>
     </div> <!-- /container -->
 

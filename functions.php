@@ -39,7 +39,48 @@ function register_theme_menus()
 }
 add_action('init', 'register_theme_menus' );
 
+
+
+// Add widgets =====================
+function create_widget($name, $id, $description)
+{
+  register_sidebar( array(
+      //double underscore is used for translation/localization
+        'name'          => __( $name ),
+        'id'            => $id,
+        'description'   => __( $description ),
+        'class'         => '',
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>'
+      ));
+}
+
+//  add Front Page Widget
+create_widget('Front Page Left', 'front-left', 'Displays on the left of the homepage.');
+create_widget('Front Page Center', 'front-center', 'Displays in the center of the homepage.');
+create_widget('Front Page Right', 'front-right', 'Displays on the right of the homepage.');
+
+// Add sidebar widgets
+create_widget('Page Sidebar', 'page', 'Displays on the side of pages with a sidebar.');
+create_widget('Blog Sidebar', 'blog', 'Displays on the side of blog pages.');
+
+
+// Add Theme Supports =====================
+add_theme_support( 'post-thumbnails' );
+
+
+
+
+
+
+
+
 ?>
+
+
+
 
 
 

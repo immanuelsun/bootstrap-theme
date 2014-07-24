@@ -1,6 +1,16 @@
 /* ==================================================
    ! Theme styles.
 ================================================== */
+/**
+ * 1. Mixins
+ * 2. Typography
+ * 3. Buttons
+ * 4. List
+ * 5. Form
+ * 6. Table
+ * 7. Layout Related
+ */
+
 
 /*  ! Mixins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -13,6 +23,18 @@
     border-color: darken($button-color, 20%);
 
     @include box-shadow(0 -2px 0 darken($button-color, 20%) inset);
+}
+
+@mixin btn-theme($text, $border, $bg, $h-text, $h-border, $h-bg) {
+  color: $text;
+  background-color: $border;
+  border-color: $bg;
+
+  &:hover {
+    color: $h-text;
+    background-color: $h-border;
+    border-color: $h-bg;
+  }
 }
 
 /*  ! Typography
@@ -35,119 +57,72 @@ h2,
 h3,
 h4 {
   font-family: $f-707;
-
-  margin-bottom: 2rem;
+  
+  padding: 0;
+  margin: .3em 0;
 }
 
 h5,
 h6 {
-  @extend h1;
-
-  font-family: $f-307;
-  text-transform: uppercase;
+  font-family: $f-303;
+  padding: 0;
+  margin: .5em 0 1em;
 }
 
-h1 { font-size: 4.5rem; text-transform: uppercase;}
-h2 { font-size: 3.6rem; }
-h3 { font-size: 3rem; }
-h4 { font-size: 2.4rem; }
-h5 { font-size: 2rem; }
-h6 { font-size: 1.6rem; }
+h1 { font-size: 3.2em; }
+h2 { font-size: 2.4em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.6em; }
+h5 { font-size: 1.2em; }
+h6 { font-size: 1em; }
 
+@media only screen and (max-width: 768px) {
+  h1 { font-size: 2.4em; }
+  h2 { font-size: 1.6em; }
+  h3 { font-size: 1.2em; }
+  h4 { font-size: 1em; }
+  h5 { font-size: .8em; }
+  h6 { font-size: .6em; }
+  p,
+  a, 
+  blockquote,
+  li
+  {font-size: .8em }
+}
+
+@media only screen and (max-width: 991px) {
+  h1 { font-size: 2.8em; }
+  h2 { font-size: 2em; }
+  h3 { font-size: 1.6em; }
+  h4 { font-size: 1.2em; }
+  h5 { font-size: 1em; }
+  h6 { font-size: .8em; }
+  p,
+  a, 
+  blockquote,
+  li
+  {font-size: .9em }
+}
 
 blockquote cite {
   color: $c-text-light;
 }
 
-/*  ! Layout related
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.t-margin {
-  margin-bottom: $baseline * 3;
+ul.meta li {
+  font-family: $f-303;
 }
 
-/*  ! Header
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.t-beveled {
-  border-bottom: 4px solid $c-border;
-
-  @include box-shadow(0px 1px 5px $c-border-shadow);
-}
-
-.logo {
-  margin: 0;
-  padding: 0;
-
-  height: 4rem;
-  line-height: 4rem;
-  text-transform: none;
-
-  display: inline-block;
-  
-  a {
-    background: transparent url(../images/logo.png) center left no-repeat;
-    background-size: 4rem 4rem;
-
-    padding-left: 5rem;
-    padding-top: .7rem;
-
-    font-family: $f-c09;
-    // text-transform: uppercase;
-    font-size: 3rem;  
-    letter-spacing: .1rem;
-
-    color: $red;
-
-    @include text-shadow(0px 0px 3px rgba(0, 0, 0, .2));
-  }
-}
-
-/*  ! Main Banner
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-#main-banner {
-  background: $bg-banner;
-
-  @include box-shadow(0 -4px 0 0 rgba(0, 0, 0, .2) inset);
-
-  h1,
-  h3, 
-  p {
-    color: #fff;
-    
-    @include text-shadow(1px 1px 3px rgba(0, 0, 0, .3));
-  }
-
-  hr {
-    width: 75%;
-
-    background-color: rgba(255, 255, 255, .4);
-  }
-}
 
 /*  ! Buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.button {
-  @include button($orange, #fff);
-
-  &:hover {
-    @include button($yellow, $c-text);
+.btn-theme-aqua {
+  @include btn-theme(#fff, $aqua, $aqua, $yellow, $orange, $orange);
+  span {
+    padding-left: .5em;
+    font-size: .8em;
   }
 }
 
-.button-primary {
-  @include button($aqua, #fff);
-
-  &:hover {
-    @include button($blue, #fff);
-  }
-}
-
-.button-secondary {
-  @include button($grey, $c-text);
-
-  &:hover {
-    @include button($c-text, #fff);
-  }
-}
 
 /*  ! List
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
@@ -160,8 +135,6 @@ blockquote cite {
     padding-right: 0;
   }
 }
-
-
 
 .l-image-well {
   float: left;
@@ -178,52 +151,24 @@ blockquote cite {
   padding-top: 1.2rem;
 }
 
-/*  ! Callout
+
+/*  ! Form
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-.l-callout {
-  background-color: $bg-callout;
 
-  color: darken($grey, 10%);
 
-  @include text-shadow(0px 0px 3px rgba(0, 0, 0, .2));
 
-  h2 {
-    margin-top: 0;
-  }
-
-  h3 {
-    margin: 0;
-    color: darken($grey, 40%);
-  }
-}
-
-/*  ! Footer
+/*  ! Table
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-// Social Icons =====================
-.social-icon {
-  background-color: lighten($grey, 2%);
 
-  @include border-radius(3px);
 
-  i.fa {
-    @include text-shadow(-1px -1px 1px rgba(0, 0, 0, .4));
-  }
+
+
+
+
+/*  ! Layout related
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.t-margin {
+  margin-bottom: $baseline * 3;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

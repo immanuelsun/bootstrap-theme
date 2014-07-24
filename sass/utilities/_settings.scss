@@ -16,7 +16,7 @@ $c-hover: #FFAB10;
 
 /* Text */
 $c-text: #424E57;
-$c-text-light: lighten($c-text, 20%);
+$c-text-light: lighten($c-text, 45%);
 
 /* hr */
 $c-hr: #eee; 
@@ -39,6 +39,7 @@ $c-g099: rgba(48, 178, 255, .99);
 
 /* others */
 $aqua: #00B5FE;
+$aqua-light: lighten($aqua, 15%);
 $orange: #FFAB10;
 $blue: #2B92FA;
 $yellow: #FFFB53;
