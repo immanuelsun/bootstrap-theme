@@ -1,10 +1,14 @@
 
-      <hr>
+      
+    </div> <!-- /container -->
 
-      <footer>
+    <hr>
+
+      <footer class="container">
         <p class="text-center">&copy; Company 2014</p>
       </footer>
-    </div> <!-- /container -->
+
+    <?php include_once('inc/contact-form.php'); ?>
 
     <?php wp_footer(); ?>
     
