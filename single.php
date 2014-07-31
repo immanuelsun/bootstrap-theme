@@ -9,6 +9,15 @@
           <?php if ( have_posts()) : while (have_posts()) : the_post(); ?>
 
           <article class="post">
+            <?php 
+                $attachment_id = get_post_thumbnail_id(get_the_ID());        
+                $attachment_meta = wp_prepare_attachment_for_js( $attachment_id );
+
+                $image_url = $attachment_meta['url'];
+                $image_alt = $attachment_meta['alt'];            
+            ?>
+
+            <p><img class="featured-image"src="<?php echo $image_url; ?>" alt="<?php echo $image_alt; ?>"></p>
 
             <header class="post-header">
                 <h1><?php the_title(''); ?></h1>

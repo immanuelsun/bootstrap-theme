@@ -1,5 +1,5 @@
 /*
-Theme Name: Bootstrapped Theme
+Theme Name: Bootstrapped
 Author: Immanuel Sun
 Author URI: http://www.newstreamsdesign.com
 Description: A simple Wordpress framework using Sass, Compass, Bootstrap and SMACSS. 
@@ -2538,24 +2538,25 @@ th {
 ================================================== */
 /* line 4, sass/base/_base.scss */
 body {
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  margin-top: 1.5em; }
 
-/* line 8, sass/base/_base.scss */
+/* line 9, sass/base/_base.scss */
 p {
   margin-bottom: 24px; }
 
-/* line 12, sass/base/_base.scss */
+/* line 13, sass/base/_base.scss */
 a {
   text-decoration: none; }
-  /* line 15, sass/base/_base.scss */
+  /* line 16, sass/base/_base.scss */
   a:hover {
     text-decoration: none; }
 
-/* line 20, sass/base/_base.scss */
+/* line 21, sass/base/_base.scss */
 blockquote {
   margin: 0;
   font-style: italic; }
-  /* line 24, sass/base/_base.scss */
+  /* line 25, sass/base/_base.scss */
   blockquote cite {
     font-size: 1.1rem; }
 
@@ -2696,43 +2697,48 @@ body {
     padding-bottom: 1rem;
     margin-bottom: .3rem;
     border-bottom: 4px solid #4ccbff; }
-  /* line 48, sass/layout/_main.scss */
-  .post-header ul.meta {
-    padding: 0;
-    margin: 0; }
-    /* line 52, sass/layout/_main.scss */
-    .post-header ul.meta li {
-      display: inline;
-      margin-right: 1rem;
-      font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
-      font-size: .8em; }
-      /* line 58, sass/layout/_main.scss */
-      .post-header ul.meta li i {
-        padding-right: .5rem;
-        color: #ffab10; }
 
-/* line 67, sass/layout/_main.scss */
+/* line 49, sass/layout/_main.scss */
+ul.meta {
+  padding: 0;
+  margin: 0; }
+  /* line 53, sass/layout/_main.scss */
+  ul.meta li {
+    display: inline;
+    margin-right: 1rem;
+    font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif;
+    font-size: .8em; }
+    /* line 59, sass/layout/_main.scss */
+    ul.meta li i {
+      padding-right: .5rem;
+      color: #ffab10; }
+
+/* line 66, sass/layout/_main.scss */
+.featured-image {
+  width: 100%; }
+
+/* line 71, sass/layout/_main.scss */
 .portfolio-item {
   padding-bottom: 1em; }
-  /* line 70, sass/layout/_main.scss */
+  /* line 74, sass/layout/_main.scss */
   .portfolio-item p {
     margin: 0;
     padding: 0; }
-  /* line 75, sass/layout/_main.scss */
+  /* line 79, sass/layout/_main.scss */
   .portfolio-item img {
     max-width: 100%;
     height: auto; }
 
-/* line 82, sass/layout/_main.scss */
+/* line 86, sass/layout/_main.scss */
 .portfolio-nav {
   margin-top: 2em;
   text-align: right;
   font-size: 1.5em; }
-  /* line 88, sass/layout/_main.scss */
+  /* line 92, sass/layout/_main.scss */
   .portfolio-nav a {
     padding: 0px .2em; }
 
-/* line 92, sass/layout/_main.scss */
+/* line 96, sass/layout/_main.scss */
 .portfolio-image img {
   max-width: 100%;
   height: auto;
@@ -2786,13 +2792,11 @@ body {
 /* line 4, sass/module/_divider.scss */
 hr {
   display: block;
-  height: 1px;
   margin: 48px 0;
-  border: none;
-  background-color: #eeeeee; }
+  border: 1px solid; }
 
 /* HR Styles */
-/* line 15, sass/module/_divider.scss */
+/* line 12, sass/module/_divider.scss */
 hr.ornament, hr.seperator {
   text-align: center;
   border: 0;
@@ -2804,7 +2808,7 @@ hr.ornament, hr.seperator {
   background-image: -ms-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0));
   background-image: -o-linear-gradient(left, rgba(48, 178, 255, 0), rgba(48, 178, 255, 0.99), rgba(48, 178, 255, 0)); }
 
-/* line 27, sass/module/_divider.scss */
+/* line 24, sass/module/_divider.scss */
 hr.ornament:after {
   background: none repeat scroll 0 0 white;
   content: "dsc";
@@ -2820,7 +2824,7 @@ hr.ornament:after {
     top:-12px;
    ];*/ }
 
-/* line 42, sass/module/_divider.scss */
+/* line 39, sass/module/_divider.scss */
 hr.seperator:after {
   background: none repeat scroll 0 0 white;
   color: rgba(48, 178, 255, 0.99);
@@ -2845,6 +2849,11 @@ hr.seperator:after {
 /* ==================================================
    ! Misc styles.
 ================================================== */
+/* line 5, sass/module/_misc.scss */
+.carousel-image {
+  width: 100%;
+  height: auto; }
+
 /* Theme */
 /* ==================================================
    ! Theme styles.
@@ -2984,9 +2993,13 @@ blockquote cite {
 ul.meta li {
   font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif; }
 
+/* line 115, sass/theme/_theme.scss */
+hr {
+  border-color: #eeeeee; }
+
 /*  ! Buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 118, sass/theme/_theme.scss */
+/* line 122, sass/theme/_theme.scss */
 .btn-theme-aqua {
   color: white;
   background-color: #00b5fe;
@@ -2996,23 +3009,23 @@ ul.meta li {
     color: #fffb53;
     background-color: #ffab10;
     border-color: #ffab10; }
-  /* line 120, sass/theme/_theme.scss */
+  /* line 124, sass/theme/_theme.scss */
   .btn-theme-aqua span {
     padding-left: .5em;
     font-size: .8em; }
 
 /*  ! List
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 129, sass/theme/_theme.scss */
+/* line 133, sass/theme/_theme.scss */
 .l-list-divided li {
   border-right: 1px solid #f1f1f1;
   padding-right: 2rem; }
-  /* line 133, sass/theme/_theme.scss */
+  /* line 137, sass/theme/_theme.scss */
   .l-list-divided li:last-child {
     border-right: none;
     padding-right: 0; }
 
-/* line 139, sass/theme/_theme.scss */
+/* line 143, sass/theme/_theme.scss */
 .l-image-well {
   float: left;
   margin-right: 2rem;
@@ -3030,7 +3043,7 @@ ul.meta li {
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 /*  ! Layout related
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
-/* line 170, sass/theme/_theme.scss */
+/* line 174, sass/theme/_theme.scss */
 .t-margin {
   margin-bottom: 72px; }
 

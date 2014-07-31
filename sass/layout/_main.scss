@@ -43,24 +43,28 @@
 
     border-bottom: 4px solid $aqua-light;
   }
+}
 
-  // Single Post Page
-  ul.meta {  
-    padding: 0;
-    margin: 0;
+// Single Post Page
+ul.meta {  
+  padding: 0;
+  margin: 0;
 
-    li {
-      display: inline;
-      margin-right: 1rem;
-      font-family: $f-303;
-      font-size: .8em;
+  li {
+    display: inline;
+    margin-right: 1rem;
+    font-family: $f-303;
+    font-size: .8em;
 
-      i {
-        padding-right: .5rem;
-        color: $orange;
-      }
+    i {
+      padding-right: .5rem;
+      color: $orange;
     }
   }
+}
+
+.featured-image {
+  width: 100%;
 }
 
 // Portfolios Page =====================

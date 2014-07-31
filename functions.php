@@ -1,4 +1,5 @@
 <?php
+// Variables =====================
 
 // Import CSS files =====================
 function theme_styles() 
@@ -19,27 +20,28 @@ function theme_js()
   $wp_scripts -> add_data( 'html5_shiv', 'conditional', 'lt IE 9');
   $wp_scripts -> add_data( 'html5_respond', 'conditional', 'lt IE 9');
 
-  wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery'), '', true);
-  wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/theme.js', array('jquery', 'bootstrap_js'), '', true);
+  wp_enqueue_script( 'bootstrap_js', get_template_directory_uri() . '/js/min/bootstrap.min.js', array('jquery'), '', true);
+  wp_enqueue_script( 'theme_js', get_template_directory_uri() . '/js/min/theme-min.js', array('jquery', 'bootstrap_js'), '', true);
 }
 add_action( 'wp_enqueue_scripts', 'theme_js' ); 
 
 // Turn on/off Admin Bar =====================
-// add_filter( 'show_admin_bar', '__return_false' );
+add_filter( 'show_admin_bar', '__return_false' );
+
+// Register Custom Navigation Walker
+require_once ( "inc/wp_bootstrap_navwalker.php");
+  
+// Add Theme Supports =====================
+add_theme_support( 'menus', 'post-thumbnails');
 
 //  Add Menus =====================
-add_theme_support( 'menus' );
-
 function register_theme_menus()
 {
-  register_nav_menus( 
-    array(
-      'header-menu' => __('Header Menu')
-    )
-  );
+  register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'Bootstrapped' ),
+  ) );
 }
 add_action('init', 'register_theme_menus' );
-
 
 
 // Add widgets =====================
@@ -58,41 +60,12 @@ function create_widget($name, $id, $description)
       ));
 }
 
-//  add Front Page Widget
+//  add Front Page Widget =============
 create_widget('Front Page Left', 'front-left', 'Displays on the left of the homepage.');
 create_widget('Front Page Center', 'front-center', 'Displays in the center of the homepage.');
 create_widget('Front Page Right', 'front-right', 'Displays on the right of the homepage.');
 
-// Add sidebar widgets
+// Add sidebar widgets =================
 create_widget('Page Sidebar', 'page', 'Displays on the side of pages with a sidebar.');
 create_widget('Blog Sidebar', 'blog', 'Displays on the side of blog pages.');
-
-
-// Add Theme Supports =====================
-add_theme_support( 'post-thumbnails' );
-
-
-
-
-
-
-
-
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
