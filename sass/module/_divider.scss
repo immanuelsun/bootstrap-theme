@@ -3,12 +3,9 @@
 ================================================== */
 hr {
   display: block;
-  height: 1px;
   margin: $general-margin 0;
   
-  border: none;
-  
-  background-color: $c-hr;
+  border: 1px solid;
 }
 
 /* HR Styles */
