@@ -1,10 +1,16 @@
 <?php get_header(); ?>
 
     <div class="container">
-      <div class="row">
+      <div class="row row-offcanvas row-offcanvas-right">
 
         <!-- MAIN CONTENT -->
         <div class="col-md-9 main">
+
+          <!-- Toggle Offcanvas Button -->
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle Sidebar</button>
+          </p>
+
           <!-- Start the Loop. -->
           <?php if ( have_posts()) : while (have_posts()) : the_post(); ?>
 
